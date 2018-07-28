@@ -7,9 +7,6 @@ import sys
 
 version = "0.6.2.dev1"
 
-with open("CHANGES.rst") as chlogf, open('README.rst', encoding='utf-8') as rdmef:
-    long_description = chlogf.read() + "\n\n" + rdmef.read()
-
 setup(name='ofxstatement',
       version=version,
       author="Andrey Lebedev",
